@@ -77,7 +77,7 @@ export default function HomePage() {
         id="hero"
         fullHeight
         bgColor="blue"
-        className="flex items-center relative overflow-hidden"
+        className="flex items-center relative overflow-hidden pt-28 md:pt-0"
       >
         <div className="absolute inset-0 opacity-10">
           <SilhouetteScene scene="city" />

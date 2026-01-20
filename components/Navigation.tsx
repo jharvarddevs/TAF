@@ -69,17 +69,17 @@ export function Navigation({ variant = 'light' }: NavigationProps) {
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-4 group">
             <div className={cn(
-              "relative overflow-hidden rounded-full p-2.5 transition-all duration-500 flex items-center justify-center",
+              "relative overflow-hidden rounded-full p-2 transition-all duration-500 flex items-center justify-center",
               isScrolled
                 ? "bg-transparent scale-90"
-                : "bg-white shadow-2xl shadow-blue-900/30 scale-105 animate-shimmer logo-halo"
+                : "bg-white shadow-2xl shadow-blue-900/30 scale-100 md:scale-105 animate-shimmer logo-halo"
             )}>
               <Image
                 src="/taf_logo_transparent.png"
                 alt="The Acts Foundation"
                 width={120}
                 height={120}
-                className="h-12 w-auto md:h-14 transition-all duration-300 relative z-10"
+                className="h-10 w-auto md:h-14 transition-all duration-300 relative z-10"
                 priority
               />
             </div>
