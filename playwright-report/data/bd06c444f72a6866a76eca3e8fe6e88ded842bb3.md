@@ -1,0 +1,296 @@
+# Page snapshot
+
+```yaml
+- main [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e5]:
+      - link "The Acts Foundation The Acts Foundation" [ref=e6] [cursor=pointer]:
+        - /url: /
+        - img "The Acts Foundation" [ref=e7]
+        - generic [ref=e8]: The Acts Foundation
+      - generic [ref=e9]:
+        - link "Home" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "About" [ref=e11] [cursor=pointer]:
+          - /url: /about/
+        - link "Philadelphia" [ref=e12] [cursor=pointer]:
+          - /url: /philadelphia/
+        - link "Programs" [ref=e13] [cursor=pointer]:
+          - /url: /programs/
+        - link "Impact" [ref=e14] [cursor=pointer]:
+          - /url: /impact/
+        - link "Acts 20:35 Circle" [ref=e15] [cursor=pointer]:
+          - /url: /acts-2035-circle/
+        - link "Volunteer" [ref=e16] [cursor=pointer]:
+          - /url: /volunteer/
+        - link "Contact" [ref=e17] [cursor=pointer]:
+          - /url: /contact/
+      - link "Donate Now" [ref=e19] [cursor=pointer]:
+        - /url: /donate/
+  - generic [ref=e21]:
+    - img [ref=e24]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - heading "Fighting Food Insecurity in Philadelphia" [level=1] [ref=e41]
+        - paragraph [ref=e42]:
+          - text: The Acts Foundation serves
+          - strong [ref=e43]: 1,000+ families monthly
+          - text: through food support, outreach, and faith in action.
+        - generic [ref=e44]:
+          - link "Donate Now" [ref=e45] [cursor=pointer]:
+            - /url: /donate/
+            - text: Donate Now
+            - img [ref=e46]
+          - link "Explore the Story" [ref=e48] [cursor=pointer]:
+            - /url: "#need"
+      - img [ref=e51]
+  - generic [ref=e62]:
+    - heading "The Need Has a Face" [level=2] [ref=e63]
+    - generic [ref=e64]:
+      - paragraph [ref=e65]: Hunger doesn't always look like hunger.
+      - paragraph [ref=e66]: Sometimes it looks like a parent skipping meals so their children can eat.
+      - paragraph [ref=e67]: Sometimes it looks like a child going to school without breakfast, unable to focus on learning.
+      - paragraph [ref=e68]: Sometimes it looks like a senior choosing between medication and groceries.
+    - generic [ref=e69]:
+      - generic [ref=e71]:
+        - generic [ref=e72]: 1 in 8
+        - generic [ref=e73]: Philadelphia households
+        - paragraph [ref=e74]: Experience food insecurity regularly
+      - generic [ref=e77]:
+        - generic [ref=e78]: 1 in 4
+        - generic [ref=e79]: Children affected
+        - paragraph [ref=e80]: Don't know where their next meal will come from
+      - generic [ref=e83]:
+        - generic [ref=e84]: 40%
+        - generic [ref=e85]: Families in poverty
+        - paragraph [ref=e86]: Face impossible choices between rent and food
+    - paragraph [ref=e88]: "Sources: Feeding America, USDA Food Security Reports"
+  - generic [ref=e90]:
+    - generic [ref=e91]:
+      - heading "A Walk Through Philadelphia" [level=2] [ref=e92]
+      - paragraph [ref=e93]: Every neighborhood has a story. Every story needs your help.
+    - generic [ref=e94]:
+      - generic [ref=e95]:
+        - generic [ref=e96]: 🍎
+        - heading "Food Access" [level=3] [ref=e97]
+        - generic [ref=e98]: 10:1 ratio
+        - paragraph [ref=e99]: Corner stores vs supermarkets
+      - generic [ref=e100]:
+        - generic [ref=e101]: 👨‍👩‍👧
+        - heading "Families" [level=3] [ref=e102]
+        - generic [ref=e103]: 30% struggle
+        - paragraph [ref=e104]: Working families in need
+      - generic [ref=e105]:
+        - generic [ref=e106]: 👵
+        - heading "Seniors" [level=3] [ref=e107]
+        - generic [ref=e108]: 40% skip meals
+        - paragraph [ref=e109]: To afford medication
+      - generic [ref=e110]:
+        - generic [ref=e111]: 🚨
+        - heading "Emergency" [level=3] [ref=e112]
+        - generic [ref=e113]: 24 hours
+        - paragraph [ref=e114]: Crisis response time
+      - generic [ref=e115]:
+        - generic [ref=e116]: 🤝
+        - heading "Outreach" [level=3] [ref=e117]
+        - generic [ref=e118]: 1,000+
+        - paragraph [ref=e119]: Families served monthly
+    - link "Explore the City Hub" [ref=e121] [cursor=pointer]:
+      - /url: /philadelphia/
+      - text: Explore the City Hub
+      - img [ref=e122]
+  - generic [ref=e126]:
+    - generic [ref=e127]:
+      - heading "This Is How We Help" [level=2] [ref=e128]
+      - paragraph [ref=e129]: Direct action. Real impact. Lasting change.
+    - generic [ref=e130]:
+      - generic [ref=e131]:
+        - img [ref=e133]
+        - heading "Food Distribution" [level=3] [ref=e137]
+        - paragraph [ref=e138]: Fresh groceries delivered directly to families. No barriers. No shame. Just dignified support when it's needed most.
+      - generic [ref=e139]:
+        - img [ref=e141]
+        - heading "Emergency Family Support" [level=3] [ref=e143]
+        - paragraph [ref=e144]: Rapid response for families in crisis. Within 24 hours, we provide emergency food packages and connect families to resources.
+      - generic [ref=e145]:
+        - img [ref=e147]
+        - heading "Community Outreach" [level=3] [ref=e152]
+        - paragraph [ref=e153]: Building relationships that transform communities. We don't just give food—we walk alongside families toward lasting stability.
+  - generic [ref=e155]:
+    - generic [ref=e156]:
+      - heading "Your Gift Transforms Lives" [level=2] [ref=e157]
+      - paragraph [ref=e158]: See exactly how your donation creates real, measurable impact
+    - generic [ref=e159]:
+      - heading "See Your Impact" [level=3] [ref=e160]
+      - paragraph [ref=e161]: Move the slider to see how your gift transforms lives
+      - generic [ref=e162]:
+        - generic [ref=e163]:
+          - generic [ref=e164]: $
+          - generic [ref=e165]: "50"
+        - generic [ref=e169]:
+          - generic [ref=e170]: $25
+          - generic [ref=e171]: $250
+      - generic [ref=e172]:
+        - img [ref=e174]
+        - heading "Feed 2 families" [level=4] [ref=e179]
+        - paragraph [ref=e180]: Help two families put food on the table
+      - generic [ref=e181]:
+        - button "$25" [ref=e182] [cursor=pointer]:
+          - generic [ref=e183]: $25
+        - button "$50" [ref=e184] [cursor=pointer]:
+          - generic [ref=e185]: $50
+        - button "$100" [ref=e186] [cursor=pointer]:
+          - generic [ref=e187]: $100
+        - button "$250" [ref=e188] [cursor=pointer]:
+          - generic [ref=e189]: $250
+      - link "Donate $50 Now" [ref=e190] [cursor=pointer]:
+        - /url: /donate/
+      - paragraph [ref=e191]: Your gift becomes groceries. Your gift becomes dignity. Your gift becomes hope.
+  - generic [ref=e193]:
+    - generic [ref=e194]:
+      - heading "Acts 20:35 Circle" [level=2] [ref=e195]
+      - paragraph [ref=e196]: Honoring those who believe giving is better than receiving
+    - generic [ref=e198]:
+      - generic [ref=e199]:
+        - generic [ref=e200]:
+          - heading "Sarah M." [level=4] [ref=e201]
+          - generic [ref=e202]:
+            - img [ref=e203]
+            - text: Family Sponsor
+        - generic [ref=e206]:
+          - img [ref=e207]
+          - generic [ref=e210]: Philadelphia, PA
+        - paragraph [ref=e211]: "\"So grateful to be part of this mission.\""
+        - paragraph [ref=e213]: Joined January 2024
+      - generic [ref=e214]:
+        - generic [ref=e215]:
+          - heading "Anonymous" [level=4] [ref=e216]
+          - generic [ref=e217]:
+            - img [ref=e218]
+            - text: Community Builder
+        - generic [ref=e220]:
+          - img [ref=e221]
+          - generic [ref=e224]: New York, NY
+        - paragraph [ref=e225]: "\"Every family deserves dignity and hope.\""
+        - paragraph [ref=e227]: Joined February 2024
+      - generic [ref=e228]:
+        - generic [ref=e229]:
+          - heading "Michael T." [level=4] [ref=e230]
+          - generic [ref=e231]:
+            - img [ref=e232]
+            - text: Philadelphia Champion
+        - generic [ref=e235]:
+          - img [ref=e236]
+          - generic [ref=e239]: Camden, NJ
+        - paragraph [ref=e240]: "\"Proud to support Philadelphia families.\""
+        - paragraph [ref=e242]: Joined December 2023
+      - generic [ref=e243]:
+        - generic [ref=e244]:
+          - heading "Jennifer L." [level=4] [ref=e245]
+          - generic [ref=e246]:
+            - img [ref=e247]
+            - text: Supporter
+        - generic [ref=e249]:
+          - img [ref=e250]
+          - generic [ref=e253]: Philadelphia, PA
+        - paragraph [ref=e254]: "\"Thank you for being a blessing to our community.\""
+        - paragraph [ref=e256]: Joined March 2024
+      - generic [ref=e257]:
+        - generic [ref=e258]:
+          - heading "Anonymous" [level=4] [ref=e259]
+          - generic [ref=e260]:
+            - img [ref=e261]
+            - text: Family Sponsor
+        - generic [ref=e264]:
+          - img [ref=e265]
+          - generic [ref=e268]: Wilmington, DE
+        - paragraph [ref=e269]: "\"It is more blessed to give than to receive.\""
+        - paragraph [ref=e271]: Joined January 2024
+      - generic [ref=e272]:
+        - generic [ref=e273]:
+          - heading "David K." [level=4] [ref=e274]
+          - generic [ref=e275]:
+            - img [ref=e276]
+            - text: Supporter
+        - generic [ref=e278]:
+          - img [ref=e279]
+          - generic [ref=e282]: Philadelphia, PA
+        - paragraph [ref=e284]: Joined February 2024
+    - link "Join the Acts 20:35 Circle" [ref=e286] [cursor=pointer]:
+      - /url: /acts-2035-circle/
+      - text: Join the Acts 20:35 Circle
+      - img [ref=e287]
+  - generic [ref=e290]:
+    - img [ref=e293]
+    - generic [ref=e306]:
+      - heading "Meet the need of the least of these." [level=2] [ref=e307]
+      - paragraph [ref=e308]: Because giving is better than receiving.
+      - paragraph [ref=e309]: Acts 20:35
+      - generic [ref=e310]:
+        - link "Donate Now" [ref=e311] [cursor=pointer]:
+          - /url: /donate/
+          - text: Donate Now
+          - img [ref=e312]
+        - link "Volunteer" [ref=e314] [cursor=pointer]:
+          - /url: /volunteer/
+  - generic [ref=e316]:
+    - generic [ref=e317]:
+      - generic [ref=e318]:
+        - link "The Acts Foundation" [ref=e319] [cursor=pointer]:
+          - /url: /
+          - img "The Acts Foundation" [ref=e320]
+        - heading "The Acts Foundation" [level=3] [ref=e321]
+        - paragraph [ref=e322]: Fighting food insecurity in Philadelphia through faith, action, and community support.
+        - generic [ref=e323]:
+          - img [ref=e324]
+          - generic [ref=e326]: It is more blessed to give than to receive
+      - generic [ref=e327]:
+        - heading "About" [level=4] [ref=e328]
+        - list [ref=e329]:
+          - listitem [ref=e330]:
+            - link "Our Mission" [ref=e331] [cursor=pointer]:
+              - /url: /about/
+          - listitem [ref=e332]:
+            - link "Programs" [ref=e333] [cursor=pointer]:
+              - /url: /programs/
+          - listitem [ref=e334]:
+            - link "Impact Stories" [ref=e335] [cursor=pointer]:
+              - /url: /impact/
+          - listitem [ref=e336]:
+            - link "FAQ" [ref=e337] [cursor=pointer]:
+              - /url: /faq/
+      - generic [ref=e338]:
+        - heading "Get Involved" [level=4] [ref=e339]
+        - list [ref=e340]:
+          - listitem [ref=e341]:
+            - link "Donate" [ref=e342] [cursor=pointer]:
+              - /url: /donate/
+          - listitem [ref=e343]:
+            - link "Volunteer" [ref=e344] [cursor=pointer]:
+              - /url: /volunteer/
+          - listitem [ref=e345]:
+            - link "Acts 20:35 Circle" [ref=e346] [cursor=pointer]:
+              - /url: /acts-2035-circle/
+          - listitem [ref=e347]:
+            - link "Contact Us" [ref=e348] [cursor=pointer]:
+              - /url: /contact/
+      - generic [ref=e349]:
+        - heading "Contact" [level=4] [ref=e350]
+        - list [ref=e351]:
+          - listitem [ref=e352]:
+            - img [ref=e353]
+            - generic [ref=e356]:
+              - text: 3599 Nottingham Lane Unit K
+              - text: Philadelphia, PA 19114
+          - listitem [ref=e357]:
+            - img [ref=e358]
+            - link "609-309-4280" [ref=e360] [cursor=pointer]:
+              - /url: tel:609-309-4280
+          - listitem [ref=e361]:
+            - img [ref=e362]
+            - link "theactsfoundationtech@gmail.com" [ref=e365] [cursor=pointer]:
+              - /url: mailto:theactsfoundationtech@gmail.com
+    - generic [ref=e367]:
+      - paragraph [ref=e368]: © 2026 The Acts Foundation. All rights reserved.
+      - paragraph [ref=e369]: "Acts 20:35 - In everything I did, I showed you that by this kind of hard work we must help the weak, remembering the words the Lord Jesus himself said: It is more blessed to give than to receive."
+```

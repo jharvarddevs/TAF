@@ -1,0 +1,15 @@
+# Rewrite Rules for Next.js Static Export
+RewriteEngine On
+
+# Ensure clean URLs work (e.g. /about/ becomes /about/index.html internally)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1/index.html [L]
+
+# Handle dynamic routing for updates (fallback to the latest shell)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^updates/(.*)$ updates/latest/index.html [L]
+
+# Default 404 handler
+ErrorDocument 404 /404.html

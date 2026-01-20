@@ -1,0 +1,127 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - main [ref=e2]:
+    - navigation [ref=e3]:
+      - generic [ref=e5]:
+        - link "The Acts Foundation The Acts Foundation" [ref=e6] [cursor=pointer]:
+          - /url: /
+          - img "The Acts Foundation" [ref=e7]
+          - generic [ref=e8]: The Acts Foundation
+        - generic [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "About" [ref=e11] [cursor=pointer]:
+            - /url: /about/
+          - link "Philadelphia" [ref=e12] [cursor=pointer]:
+            - /url: /philadelphia/
+          - link "Programs" [ref=e13] [cursor=pointer]:
+            - /url: /programs/
+          - link "Impact" [ref=e14] [cursor=pointer]:
+            - /url: /impact/
+          - link "Acts 20:35 Circle" [ref=e15] [cursor=pointer]:
+            - /url: /acts-2035-circle/
+          - link "Volunteer" [ref=e16] [cursor=pointer]:
+            - /url: /volunteer/
+          - link "Contact" [ref=e17] [cursor=pointer]:
+            - /url: /contact/
+        - link "Donate Now" [ref=e19] [cursor=pointer]:
+          - /url: /donate/
+    - generic [ref=e22]:
+      - heading "Volunteer With Us" [level=1] [ref=e23]
+      - paragraph [ref=e24]: Be the hands and feet that serve Philadelphia families. Your time and skills make a real difference.
+      - button "Get Started" [active] [ref=e25] [cursor=pointer]
+    - generic [ref=e28]:
+      - heading "Volunteer Opportunities" [level=2] [ref=e29]
+      - paragraph [ref=e30]: Whether you have an hour or ongoing availability, there's a way for you to serve
+      - generic [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: 📦
+          - heading "Food Distribution" [level=3] [ref=e34]
+          - paragraph [ref=e35]: Help pack and distribute groceries at weekly events. Perfect for teams and families.
+        - generic [ref=e36]:
+          - generic [ref=e37]: 🚗
+          - heading "Delivery Support" [level=3] [ref=e38]
+          - paragraph [ref=e39]: Deliver food packages to homebound seniors and families. Requires reliable transportation.
+        - generic [ref=e40]:
+          - generic [ref=e41]: 🤝
+          - heading "Community Outreach" [level=3] [ref=e42]
+          - paragraph [ref=e43]: Build relationships with families, connect them to resources, and provide ongoing support.
+    - generic [ref=e46]:
+      - heading "Why Volunteer?" [level=2] [ref=e47]
+      - generic [ref=e48]:
+        - generic [ref=e49]:
+          - heading "Make Real Impact" [level=4] [ref=e50]
+          - paragraph [ref=e51]: Your time directly serves Philadelphia families. You'll see the tangible difference your service makes in people's lives.
+        - generic [ref=e52]:
+          - heading "Build Community" [level=4] [ref=e53]
+          - paragraph [ref=e54]: Connect with like-minded people who share your passion for serving others. Many volunteers form lasting friendships.
+        - generic [ref=e55]:
+          - heading "Flexible Commitment" [level=4] [ref=e56]
+          - paragraph [ref=e57]: Whether you can volunteer once or regularly, we'll find an opportunity that fits your schedule and skills.
+        - generic [ref=e58]:
+          - heading "Experience Joy" [level=4] [ref=e59]
+          - paragraph [ref=e60]: Discover the blessing of giving—just as Acts 20:35 promises. Volunteers often say they receive more than they give.
+    - generic [ref=e62]:
+      - generic [ref=e63]:
+        - generic [ref=e64]:
+          - link "The Acts Foundation" [ref=e65] [cursor=pointer]:
+            - /url: /
+            - img "The Acts Foundation" [ref=e66]
+          - heading "The Acts Foundation" [level=3] [ref=e67]
+          - paragraph [ref=e68]: Fighting food insecurity in Philadelphia through faith, action, and community support.
+          - generic [ref=e69]:
+            - img [ref=e70]
+            - generic [ref=e72]: It is more blessed to give than to receive
+        - generic [ref=e73]:
+          - heading "About" [level=4] [ref=e74]
+          - list [ref=e75]:
+            - listitem [ref=e76]:
+              - link "Our Mission" [ref=e77] [cursor=pointer]:
+                - /url: /about/
+            - listitem [ref=e78]:
+              - link "Programs" [ref=e79] [cursor=pointer]:
+                - /url: /programs/
+            - listitem [ref=e80]:
+              - link "Impact Stories" [ref=e81] [cursor=pointer]:
+                - /url: /impact/
+            - listitem [ref=e82]:
+              - link "FAQ" [ref=e83] [cursor=pointer]:
+                - /url: /faq/
+        - generic [ref=e84]:
+          - heading "Get Involved" [level=4] [ref=e85]
+          - list [ref=e86]:
+            - listitem [ref=e87]:
+              - link "Donate" [ref=e88] [cursor=pointer]:
+                - /url: /donate/
+            - listitem [ref=e89]:
+              - link "Volunteer" [ref=e90] [cursor=pointer]:
+                - /url: /volunteer/
+            - listitem [ref=e91]:
+              - link "Acts 20:35 Circle" [ref=e92] [cursor=pointer]:
+                - /url: /acts-2035-circle/
+            - listitem [ref=e93]:
+              - link "Contact Us" [ref=e94] [cursor=pointer]:
+                - /url: /contact/
+        - generic [ref=e95]:
+          - heading "Contact" [level=4] [ref=e96]
+          - list [ref=e97]:
+            - listitem [ref=e98]:
+              - img [ref=e99]
+              - generic [ref=e102]:
+                - text: 3599 Nottingham Lane Unit K
+                - text: Philadelphia, PA 19114
+            - listitem [ref=e103]:
+              - img [ref=e104]
+              - link "609-309-4280" [ref=e106] [cursor=pointer]:
+                - /url: tel:609-309-4280
+            - listitem [ref=e107]:
+              - img [ref=e108]
+              - link "theactsfoundationtech@gmail.com" [ref=e111] [cursor=pointer]:
+                - /url: mailto:theactsfoundationtech@gmail.com
+      - generic [ref=e113]:
+        - paragraph [ref=e114]: © 2026 The Acts Foundation. All rights reserved.
+        - paragraph [ref=e115]: "Acts 20:35 - In everything I did, I showed you that by this kind of hard work we must help the weak, remembering the words the Lord Jesus himself said: It is more blessed to give than to receive."
+  - alert [ref=e116]
+```
