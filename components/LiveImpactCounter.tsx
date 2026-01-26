@@ -50,7 +50,7 @@ export function LiveImpactCounter() {
     }, []);
 
     return (
-        <div className="inline-flex flex-col sm:flex-row items-center gap-6 sm:gap-12 bg-white/5 backdrop-blur-xl border border-white/10 p-6 sm:p-8 rounded-[2.5rem] shadow-[0_0_40px_-12px_rgba(0,0,0,0.4)]">
+        <div className="inline-flex flex-col sm:flex-row items-center gap-6 sm:gap-12 bg-white/12 backdrop-blur-xl border border-white/20 p-6 sm:p-8 rounded-[2.5rem] shadow-[0_20px_50px_-12px_rgba(0,0,0,0.6)]">
             <div className="flex items-center gap-5 sm:border-r border-white/10 sm:pr-12 pb-6 sm:pb-0">
                 <div className="relative">
                     <div className="w-16 h-16 bg-hope-green/20 rounded-2xl flex items-center justify-center text-hope-green shadow-inner">
@@ -64,14 +64,14 @@ export function LiveImpactCounter() {
                 </div>
                 <div>
                     <div className="flex items-center gap-2 mb-1">
-                        <span className="w-1.5 h-1.5 bg-hope-green rounded-full animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.4)]" />
-                        <span className="text-[10px] uppercase tracking-[0.2em] text-hope-green font-bold">Live Impact</span>
+                        <span className="w-1.5 h-1.5 bg-hope-green rounded-full animate-pulse shadow-[0_0_8px_rgba(34,197,94,0.6)]" />
+                        <span className="text-[10px] uppercase tracking-[0.2em] text-[#4ade80] font-bold">Live Impact</span>
                     </div>
                     <div className="flex items-center gap-2">
                         <Counter value={count} />
-                        <span className="text-white/70 text-sm font-heading font-bold uppercase tracking-widest mt-1.5">Boxes</span>
+                        <span className="text-white/90 text-sm font-heading font-bold uppercase tracking-widest mt-1.5">Boxes</span>
                     </div>
-                    <p className="text-white/30 text-[10px] font-medium tracking-wide">Delivered this month</p>
+                    <p className="text-white/60 text-[10px] font-medium tracking-wide">Delivered this month</p>
                 </div>
             </div>
 
@@ -82,9 +82,9 @@ export function LiveImpactCounter() {
                 <div>
                     <div className="flex items-center gap-2">
                         <Counter value={Math.floor(count * 0.85)} />
-                        <span className="text-white/70 text-sm font-heading font-bold uppercase tracking-widest mt-1.5">Families</span>
+                        <span className="text-white/90 text-sm font-heading font-bold uppercase tracking-widest mt-1.5">Families</span>
                     </div>
-                    <p className="text-white/30 text-[10px] font-medium tracking-wide">Reached & Supported</p>
+                    <p className="text-white/60 text-[10px] font-medium tracking-wide">Reached & Supported</p>
                 </div>
             </div>
         </div>

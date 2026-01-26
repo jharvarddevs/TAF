@@ -47,7 +47,6 @@ export default function TeamPage() {
         "description": "Fighting food insecurity in Philadelphia through faith, action, and community support.",
         "address": {
             "@type": "PostalAddress",
-            "streetAddress": "3599 Nottingham Lane Unit K",
             "addressLocality": "Philadelphia",
             "addressRegion": "PA",
             "postalCode": "19114",
