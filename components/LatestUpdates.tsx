@@ -1,6 +1,6 @@
 'use client';
 
-import React, { useEffect, useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
@@ -78,11 +78,7 @@ export const LatestUpdates: React.FC = () => {
                     <div className="p-6 flex-1 flex flex-col">
                         <div className="flex items-center gap-2 text-primary-blue/60 text-xs font-bold uppercase tracking-wider mb-3">
                             <Calendar size={14} />
-                            {new Date(post.created_at).toLocaleDateString('en-US', {
-                                month: 'long',
-                                day: 'numeric',
-                                year: 'numeric',
-                            })}
+                            <DateDisplay date={post.created_at} />
                         </div>
 
                         <h3 className="font-heading font-bold text-xl mb-3 text-gray-900 group-hover:text-primary-blue transition-colors line-clamp-2">
@@ -118,3 +114,20 @@ export const LatestUpdates: React.FC = () => {
         </div>
     );
 };
+
+function DateDisplay({ date }: { date: string }) {
+    const [mounted, setMounted] = React.useState(false);
+    React.useEffect(() => setMounted(true), []);
+
+    if (!mounted) return <span className="opacity-0">Loading...</span>;
+
+    return (
+        <span>
+            {new Date(date).toLocaleDateString('en-US', {
+                month: 'long',
+                day: 'numeric',
+                year: 'numeric',
+            })}
+        </span>
+    );
+}

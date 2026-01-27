@@ -1,0 +1,33 @@
+# --- The Acts Foundation - Robust Static Routing ---
+RewriteEngine On
+
+# 1. Force HTTPS
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# 2. Allow access to the _next folder (Crucial for styling)
+# Some servers block folders starting with underscores by default.
+<IfModule mod_authz_core.c>
+    <Directory "_next">
+        Require all granted
+    </Directory>
+</IfModule>
+
+# 3. Handle Clean URLs (Force trailing slashes and map to index.html)
+# Redirect /about to /about/
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_URI} !(.*)/$
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1/ [L,R=301]
+
+# Internally map /about/ to /about/index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)/$ $1/index.html [L]
+
+# 4. Fallback for Updates (matches your project structure)
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^updates/([^/]+)/?$ updates/index.html [L]
+
+# 5. Generic 404
+ErrorDocument 404 /404.html

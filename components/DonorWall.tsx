@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { BadgeTag, BadgeLevel } from './BadgeTag';
 import { MapPin } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -105,6 +105,22 @@ export function DonorWall({ donors, showFilters = true }: DonorWallProps) {
   );
 }
 
+function DateDisplay({ date }: { date: string }) {
+  const [mounted, setMounted] = React.useState(false);
+  React.useEffect(() => setMounted(true), []);
+
+  if (!mounted) return <span className="opacity-0">Loading...</span>;
+
+  return (
+    <span>
+      {new Date(date).toLocaleDateString('en-US', {
+        month: 'long',
+        year: 'numeric'
+      })}
+    </span>
+  );
+}
+
 function DonorCard({ donor }: { donor: Donor }) {
   return (
     <div className="bg-white rounded-2xl border-2 border-gray-100 shadow-lg p-6 hover:shadow-xl transition-all duration-300 hover:scale-105">
@@ -130,10 +146,7 @@ function DonorCard({ donor }: { donor: Donor }) {
 
       <div className="mt-4 pt-4 border-t border-gray-100">
         <p className="text-xs text-gray-500">
-          Joined {new Date(donor.createdAt).toLocaleDateString('en-US', {
-            month: 'long',
-            year: 'numeric'
-          })}
+          Joined <DateDisplay date={donor.createdAt} />
         </p>
       </div>
     </div>
